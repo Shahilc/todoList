@@ -14,6 +14,8 @@ class HomeProvider extends ChangeNotifier {
   bool isActive = false;
   bool loading = false;
   List<Todo> todos = [];
+  final ConnectivityService connectivityService = ConnectivityService();
+  final FirebaseService firebaseService = FirebaseService();
 
   final dbHelper = DatabaseHelper.instance;
 
@@ -60,10 +62,7 @@ class HomeProvider extends ChangeNotifier {
   }
 
   Future<void> deleteTodo(Todo todo) async {
-    // Delete locally
     await dbHelper.deleteTodo(todo.id!);
-
-    // Delete from Firestore if synced
     if (todo.firebaseId != null) {
       final firebaseService = FirebaseService();
       await firebaseService.deleteTodo(todo.firebaseId!);
@@ -72,24 +71,22 @@ class HomeProvider extends ChangeNotifier {
     await loadTodos();
   }
 
+  void startConnectivityListener(BuildContext context) {
+    connectivityService.connectivityStream.listen((hasInternet) {
+      if (hasInternet) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Syncing unsynced todos...")),
+        );
+
+        syncUnsyncedTodos(context);
+      }
+    });
+  }
 
   Future<void> syncUnsyncedTodos(BuildContext context) async {
-    final dbHelper = DatabaseHelper.instance;
-    final firebaseService = FirebaseService();
+    final unsyncedTodos = todos.where((todo) => !todo.isSynced).toList();
 
-    final unsyncedTodos = await dbHelper.getUnsyncedTodos();
-
-    if (unsyncedTodos.isEmpty) {
-      return;
-    }
-
-    // Show syncing SnackBar
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text("Syncing data…"),
-        duration: Duration(seconds: 2),
-      ),
-    );
+    if (unsyncedTodos.isEmpty) return;
 
     for (final todo in unsyncedTodos) {
       try {
@@ -97,25 +94,23 @@ class HomeProvider extends ChangeNotifier {
 
         if (todo.firebaseId != null) {
           await firebaseService.updateTodo(todo.firebaseId!, todo);
-          firebaseId = todo.firebaseId;
         } else {
           firebaseId = await firebaseService.addTodo(todo);
         }
 
-        final updatedTodo = todo.copyWith(
-          isSynced: true,
+        final syncedTodo = todo.copyWith(
           firebaseId: firebaseId,
+          isSynced: true,
         );
+        await dbHelper.updateTodo(syncedTodo);
 
-        await dbHelper.updateTodo(updatedTodo);
       } catch (e) {
-        debugPrint("Error syncing todo ${todo.id}: $e");
+        print("❌ Sync error: $e");
       }
     }
 
     await loadTodos();
 
-    // Optional: show a success message
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text("Sync completed!")),
     );

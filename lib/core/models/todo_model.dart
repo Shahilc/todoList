@@ -1,6 +1,6 @@
 class Todo {
-  int? id;                // SQLite primary key
-  String? firebaseId;     // Firestore document ID
+  int? id;
+  String? firebaseId;
   String name;
   String description;
   String startDate;

@@ -23,11 +23,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   @override
+
   void initState() {
     super.initState();
-    final vm = Provider.of<HomeProvider>(context, listen: false);
-    vm.dateShowing();
-    vm.syncUnsyncedTodos(context);
+    final provider = Provider.of<HomeProvider>(context, listen: false);
+    provider.dateShowing();
+    provider.startConnectivityListener(context);
   }
 
   @override
