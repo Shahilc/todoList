@@ -1,0 +1,29 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-lifecycle-process-2.7.0-0 /Users/shahil/.gradle/caches/8.14.2/transforms/0069b80f2bfd99356967b787706402be/transformed/jetified-lifecycle-process-2.7.0/res
+io.flutter.plugins.firebase.core.firebase_core-lifecycle-livedata-core-2.7.0-1 /Users/shahil/.gradle/caches/8.14.2/transforms/0eb34ed94e673b68dc733a6b59051b16/transformed/lifecycle-livedata-core-2.7.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-lifecycle-livedata-core-ktx-2.7.0-2 /Users/shahil/.gradle/caches/8.14.2/transforms/0f1223c738f8ec1341a44b06acb3debf/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+io.flutter.plugins.firebase.core.firebase_core-fragment-1.7.1-3 /Users/shahil/.gradle/caches/8.14.2/transforms/13f712e52a9cd73abc8d84bbc5d7d442/transformed/fragment-1.7.1/res
+io.flutter.plugins.firebase.core.firebase_core-lifecycle-viewmodel-2.7.0-4 /Users/shahil/.gradle/caches/8.14.2/transforms/1963043dc66312ae09cafecc80c0d2a0/transformed/lifecycle-viewmodel-2.7.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.3.0-5 /Users/shahil/.gradle/caches/8.14.2/transforms/3e7deeb2d05b75b735152d3c3eab7e7c/transformed/jetified-play-services-basement-18.3.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-profileinstaller-1.3.1-6 /Users/shahil/.gradle/caches/8.14.2/transforms/431ed5ee9f9a1de2f09940dac89ec44a/transformed/jetified-profileinstaller-1.3.1/res
+io.flutter.plugins.firebase.core.firebase_core-lifecycle-runtime-2.7.0-7 /Users/shahil/.gradle/caches/8.14.2/transforms/472cb17d8570bcd5ea57c106dce2cb8a/transformed/lifecycle-runtime-2.7.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.4.0-8 /Users/shahil/.gradle/caches/8.14.2/transforms/4de7a1b8d4a421c3d39cdd856c5db1fb/transformed/jetified-annotation-experimental-1.4.0/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.13.1-9 /Users/shahil/.gradle/caches/8.14.2/transforms/6064cf50eb0a6352061552cd6fc8c741/transformed/core-1.13.1/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-21.0.0-10 /Users/shahil/.gradle/caches/8.14.2/transforms/60a0e648949ccb1244df805e3a0dcec6/transformed/jetified-firebase-common-21.0.0/res
+io.flutter.plugins.firebase.core.firebase_core-core-runtime-2.2.0-11 /Users/shahil/.gradle/caches/8.14.2/transforms/69454e49f6ab0a5cc518784707e67983/transformed/core-runtime-2.2.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.2.0-12 /Users/shahil/.gradle/caches/8.14.2/transforms/6bead7b2250d6c3b18bf1d9b5db95a44/transformed/jetified-window-java-1.2.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-core-1.0.0-13 /Users/shahil/.gradle/caches/8.14.2/transforms/82630f8409c1b9d6646a41215811f1d6/transformed/jetified-core-1.0.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-startup-runtime-1.1.1-14 /Users/shahil/.gradle/caches/8.14.2/transforms/906eeb31d2fb673c33e7629e0839a94e/transformed/jetified-startup-runtime-1.1.1/res
+io.flutter.plugins.firebase.core.firebase_core-lifecycle-livedata-2.7.0-15 /Users/shahil/.gradle/caches/8.14.2/transforms/b4715a5ec70c268a8c70462474e043a6/transformed/lifecycle-livedata-2.7.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-lifecycle-viewmodel-savedstate-2.7.0-16 /Users/shahil/.gradle/caches/8.14.2/transforms/c8067c96d24abe8115447b026b95c87d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-tracing-1.2.0-17 /Users/shahil/.gradle/caches/8.14.2/transforms/cb3e7d4676171ffba2599666d2ac2196/transformed/jetified-tracing-1.2.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-savedstate-1.2.1-18 /Users/shahil/.gradle/caches/8.14.2/transforms/d3843c8c3a4a1c7a6d87503ec53a93c4/transformed/jetified-savedstate-1.2.1/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.2.0-19 /Users/shahil/.gradle/caches/8.14.2/transforms/e4c469e8663a1f52d0afda83acae9fe8/transformed/jetified-window-1.2.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-activity-1.8.1-20 /Users/shahil/.gradle/caches/8.14.2/transforms/e6c014023541568b94db6c5a534eb201/transformed/jetified-activity-1.8.1/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-core-ktx-1.13.1-21 /Users/shahil/.gradle/caches/8.14.2/transforms/feb78f62064814769f1061e27fb93272/transformed/jetified-core-ktx-1.13.1/res
+io.flutter.plugins.firebase.core.firebase_core-main-22 /Users/shahil/.pub-cache/hosted/pub.dev/firebase_core-3.14.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-23 /Users/shahil/.pub-cache/hosted/pub.dev/firebase_core-3.14.0/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-24 /Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-25 /Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-26 /Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-27 /Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-28 /Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/firebase_core/intermediates/merged_res/release

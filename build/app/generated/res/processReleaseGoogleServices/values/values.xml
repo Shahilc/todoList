@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">369555394852</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0cmS1uipIfNqJsUXyvqvOvd92J6bGT7k</string>
+    <string name="google_app_id" translatable="false">1:369555394852:android:6e73db33a50a4ad7e4e3b1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0cmS1uipIfNqJsUXyvqvOvd92J6bGT7k</string>
+    <string name="google_storage_bucket" translatable="false">todolist-c971c.firebasestorage.app</string>
+    <string name="project_id" translatable="false">todolist-c971c</string>
+</resources>

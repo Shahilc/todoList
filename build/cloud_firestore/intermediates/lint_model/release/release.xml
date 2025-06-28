@@ -1,0 +1,38 @@
+<variant
+    name="release"
+    package="io.flutter.plugins.firebase.firestore"
+    minSdkVersion="21"
+    targetSdkVersion="21"
+    mergedManifest="/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/intermediates/default_proguard_files/global/proguard-android.txt-8.2.2"
+    partialResultsDir="/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/intermediates/lint_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src/test/AndroidManifest.xml"
+        javaDirectories="src/test/java:src/testRelease/java:src/test/kotlin:src/testRelease/kotlin"
+        assetsDirectories="src/test/assets:src/testRelease/assets"
+        unitTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/intermediates/javac/release/classes:/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/intermediates/compile_r_class_jar/release/R.jar"
+      type="MAIN"
+      applicationId="io.flutter.plugins.firebase.firestore"
+      generatedSourceFolders="/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/generated/ap_generated_sources/release/out:/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/generated/source/buildConfig/release"
+      generatedResourceFolders="/Users/shahil/Desktop/FLUTTER PROJECTS/todolist/build/cloud_firestore/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/shahil/.gradle/caches/8.14.2/transforms/18bb7ec096d47410d7f940fdd1967e44/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+  <testArtifact>
+  </testArtifact>
+</variant>
